@@ -53,6 +53,48 @@ header a:hover{
 
 }
 
+.slider{
+
+  max-width: 800px;
+  max-height: 600px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+
+}
+
+.slides{
+
+  display: flex;
+  width: 300%;
+  animation: animacaoSlide 25s infinite;
+
+}
+
+.slide{
+
+  width: 800px;
+  height: 600px;
+  flex-shrink: 0;
+
+}
+
+.slide img{
+
+  width: 100%;
+  display: block;
+
+}
+
+@keyframes animacaoSlide {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-100%); }
+  50% { transform: translateX(-200%); }
+  75% { transform: translateX(-300%); }
+  100% { transform: translateX(0); }
+}
+
+
 hr{
 
   margin-bottom: 0;
