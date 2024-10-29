@@ -52,8 +52,42 @@ body {
     border-radius: 8px;
   
   }
+
+  h1{
+
+    text-align: center;
+    font-size: 36px;
+
+  }
+
+  .itens h2{
+
+    margin-left: 40px;
+
+  }
   
-  
+  .item{
+
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color:rgb(212, 212, 212);
+    margin: 20px;
+
+  }
+
+  .item:nth-child(even){
+
+    background-color: rgb(244, 244, 244);
+
+  }
+
+  .item img{
+
+    width: 40px;
+    height: 40px;
+
+  }
   
   hr{
   

@@ -53,44 +53,86 @@ header a:hover{
 
 }
 
+main{
+
+  text-align: center;
+
+}
+
+main h1{
+
+  font-size: 70px;
+  text-decoration: underline;
+
+}
+
 .slider{
 
+  position: relative;
   max-width: 800px;
   max-height: 600px;
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
+  border-style: solid;
+  border-color: #FA4F34;
+  border-radius: 5px;
+  border-width: 5px;
 
 }
 
 .slides{
 
   display: flex;
-  width: 300%;
-  animation: animacaoSlide 25s infinite;
+  width: 100%;
+  animation: animacaoSlide 9s infinite;
 
 }
 
 .slide{
 
-  width: 800px;
-  height: 600px;
+  width: 100%;
   flex-shrink: 0;
 
 }
 
 .slide img{
-
-  width: 100%;
+  width: 800px;
+  height: 600px;
+ 
   display: block;
+
+}
+
+.cards{
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.card{
+
+  border-style: solid;
+  border-color: #FA4F34;
+  border-radius: 5px;
+  border-width: 5px;
+  margin: 20px;
+
+}
+
+.apresentacao{
+
+  background-color: rgb(212, 212, 212);
+  padding: 2%;
+  font-size: 24px;
 
 }
 
 @keyframes animacaoSlide {
   0% { transform: translateX(0); }
-  25% { transform: translateX(-100%); }
-  50% { transform: translateX(-200%); }
-  75% { transform: translateX(-300%); }
+ 33% { transform: translateX(-100%); }
+  66% { transform: translateX(-200%); }
   100% { transform: translateX(0); }
 }
 
