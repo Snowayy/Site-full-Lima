@@ -6,6 +6,7 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
     margin: 0;
+    height: 100%;
   }
   
   header{
@@ -53,7 +54,49 @@ body {
   
   }
   
+  main{
+
+    min-height: 80vh;
+
+  }
   
+  .containerCadastro{
+
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .containerCadastro input{
+
+    width: 100%;
+
+}
+
+  .containerCadastro form{
+
+    padding: 20px;
+    width: 300px;
+    height: 100%;
+    background-color: rgb(212, 212, 212);
+    border-radius: 5px;
+    margin: 10px;
+
+  }
+
+  .containerCadastro form a{
+
+    color: #FA4F34;
+    text-decoration: none;
+
+  }
+
+  .containerCadastro form a:hover{
+
+    color: #C9FA5F;
+    text-decoration: underline;
+
+  }
   
   hr{
   

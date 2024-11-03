@@ -6,6 +6,7 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
     margin: 0;
+    height: 100%;
   }
   
   header{
@@ -52,8 +53,51 @@ body {
     border-radius: 8px;
   
   }
+
+  main{
+
+    min-height: 80vh;
+
+  }
   
-  
+  .containerLogin{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+
+  .containerLogin input{
+
+    width: 100%;
+
+}
+
+  .containerLogin form{
+
+    padding: 20px;
+    width: 300px;
+    height: 100%;
+    background-color: rgb(212, 212, 212);
+    border-radius: 5px;
+    margin: 10px;
+
+  }
+
+  .containerLogin form a{
+
+    color: #FA4F34;
+    text-decoration: none;
+
+  }
+
+  .containerLogin form a:hover{
+
+    color: #C9FA5F;
+    text-decoration: underline;
+
+  }
   
   hr{
   

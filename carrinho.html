@@ -26,7 +26,67 @@
 
     <main>
 
+        <section>
+            <table>
 
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Quantidade</th>
+                        <th>Preço unitário</th>
+                        <th>Total</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+    
+                <tbody>
+    
+                    <tr>
+                        <td>Pizza de algum sabor muito bom</td>
+                        <td>
+                            <input type="number" value="1" min="1" class="quantidade">
+                        </td>
+                        <td class="precoUnico">R$70,00</td>
+                        <td class="precoTotal">R$70,00</td>
+                        <td>
+                            <button class="removerProduto">Remover</button>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td>Refri muito geladinho</td>
+                        <td>
+                            <input type="number" value="0" min="0" class="quantidade">
+                        </td>
+                        <td class="precoUnico">R$8,00</td>
+                        <td class="precoTotal">R$0,00</td>
+                        <td>
+                            <button class="removerProduto">Remover</button>
+                    </tr>
+    
+                    <tr>
+                        <td>Cerveja gelada</td>
+                        <td>
+                            <input type="number" value="0" min="0" class="quantidade">
+                        </td>
+                        <td class="precoUnico">R$12,00</td>
+                        <td class="precoTotal">R$0,00</td>
+                        <td>
+                            <button class="removerProduto">Remover</button>
+                    </tr>
+    
+                </tbody>
+    
+            </table>
+
+            <div class="totalGeral">
+                <h3>Total final:<span id="totalGeral">R$70,00</span></h3>
+                <button class="comprar">Comprar</button>
+            </div>
+
+        </section>
+
+        <script src="js/carrinho.js"></script>
     </main>
     
     <hr>

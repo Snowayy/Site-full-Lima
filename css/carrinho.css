@@ -6,6 +6,7 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
     margin: 0;
+    height: 100%;
   }
   
   header{
@@ -52,8 +53,105 @@ body {
     border-radius: 8px;
   
   }
+
+  main{
+
+    min-height: 80vh;
+
+  }
   
-  
+  table{
+
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+
+}
+
+table td img{
+
+    max-width: 70px;
+    max-height: 70px;
+
+}
+
+th, td{
+
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #FA4F34;
+
+}
+
+th{
+
+    font-weight: bold;
+
+}
+
+tr:nth-child(even){
+
+  background-color: rgb(244, 244, 244);
+
+}
+
+tbody tr{
+
+  background-color:rgb(212, 212, 212);
+
+}
+
+input.quantidade{
+
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+
+}
+
+button.removerProduto{
+
+    background-color: #FA4F34;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+button.removerProduto:hover {
+    text-decoration: underline;
+    color: #C9FA5F;
+}
+
+.totalGeral{
+
+    text-align: right;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+button.comprar{
+
+    background-color: #FA4F34;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+button.comprar:hover {
+    text-decoration: underline;
+    color: #C9FA5F;
+}
+
   
   hr{
   
